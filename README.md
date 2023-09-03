@@ -29,6 +29,8 @@
 | 1       | `(3 + (6 * ((2 + 5) / 6) - (2 + 1)))`       | 6                   | 2      | 6         | 48    |
 | 4       | `(3 + (6 * ((3 + 5) / 6) - (3 + 1)))`       | 5                   | 3      | 20        | 68    |
 
+*asi por cada digito*
+
 Suma total: 186
 
 Residuo: 186 % 11 = 10
@@ -60,6 +62,9 @@ Si el validador es igual al dígito validador, el NIT es válido (1 = 1).
 | 6       | `(14 - 1)`          | 13                  | 1      | 78        | 204   |
 | 1       | `(14 - 2)`          | 12                  | 2      | 12        | 216   |
 | 5       | `(14 - 3)`          | 11                  | 3      | 55        | 271   |
+
+*asi por cada digito*
+
 
 Suma total: 411
 
