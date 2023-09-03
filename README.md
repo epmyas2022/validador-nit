@@ -82,4 +82,4 @@ Si el validador es igual al dígito validador, el NIT es válido (4 = 4).
 
 ### Script en javascript
 
-<img src="Terminal_002.png" alt="Validar NIT El Salvador" width="100px" />
+<img src="Terminal_002.png" alt="Validar NIT El Salvador" />
