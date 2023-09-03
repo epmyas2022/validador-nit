@@ -1,0 +1,16 @@
+{
+  "name": "calculonit",
+  "version": "1.0.0",
+  "description": "- [Fórmula para Validar un NIT en El Salvador](#formula-para-validar-un-nit-en-el-salvador)     - [Cálculo si el Correlativo es > 100](#calculo-si-el-correlativo-es-100)     - [Cálculo si el Correlativo es <= 100](#calculo-si-el-correlativo-es-100)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs --nit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.10"
+  }
+}

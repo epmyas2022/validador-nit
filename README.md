@@ -78,3 +78,8 @@ Residuo: 411 % 11 = 4
 #### Verificamos la Veracidad del NIT
 
 Si el validador es igual al dígito validador, el NIT es válido (4 = 4).
+
+
+### Script en javascript
+
+<img src="Terminal_002.png" alt="Validar NIT El Salvador" width="100px" />
