@@ -18,7 +18,7 @@
 ### Cálculo si el Correlativo es > 100
 
 #### Operación Fórmula
-
+- Operacion formula = `digito * ( 3 + (6 * ((INDICE + 5 ) / 6) - (INDICE + 1)))`
 
 - `(6 * ((INDICE + 5) / 6))` - Esta operación se redondea según el decimal.
 
@@ -51,7 +51,7 @@ Si el validador es igual al dígito validador, el NIT es válido (1 = 1).
 - **Dígitos:** 9615-050483-100 (Todos menos el validador)
 
 #### Operación Fórmula
-
+- Operacion formula = `digito * (14 - INDICE)`
 
 
 | DIGITOS | OPERACIÓN           | RESULTADO OPERACIÓN | INDICE | RESULTADO | TOTAL |
