@@ -1,0 +1,39 @@
+  if (dui === null) return false;
+  let valido = false;
+
+  // Validando la longitud del numero de DUI
+  if (dui.length === 10) {
+    // Validando que no sea ceros todos los dígitos
+    if (dui !== "00000000-0") {
+      // Obteniendo los dígitos y el verificador
+      let [digitos, validador] = dui.split("-");
+
+      // Verficiando que la cadena
+      if (typeof digitos !== "undefined" && typeof validador !== "undefined") {
+        // Verificando que el validador sea de un solo caracter
+        if (validador.length === 1) {
+          // Convirtiendo los digitos a array
+          digitos = digitos.split("");
+
+          // Convirtiendo los datos a tipo integer
+          validador = parseInt(validador, 10);
+          digitos = digitos.map((digito) => parseInt(digito, 10));
+
+          // Obteniendo la suma corresponiente
+          let suma = digitos.reduce(
+            (total, digito, index) => (total += digito * (9 - index)),
+            0
+          );
+
+          // Obteniendo el Modulo base 10
+          let mod = suma % 10;
+          mod = validador === 0 && mod === 0 ? 10 : mod;
+
+          let resta = 10 - mod;
+
+          if (resta === validador) {
+            valido = true;
+          }
+        }
+      }
+    }
